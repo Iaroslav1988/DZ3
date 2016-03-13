@@ -1,0 +1,172 @@
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 966px;
+	height: 856px;
+	margin: 0 auto;
+	padding: 47px;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+
+
+/*Header start*/
+
+header { margin-bottom: 40px;
+
+}
+/*Logo start*/
+h1{
+	height: 40px;
+	width: 145px;
+	margin-bottom: 40px; 
+}
+
+/*Logo finish*/
+
+/*Top menu start*/
+.top_menu {
+	height: 40px;
+	width: 100%;
+	background-color: #575757;
+}
+
+.top_menu ul {
+	list-style-type: none;
+		
+}
+
+
+.top_menu li{
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	display: block;
+	float: left;
+	padding: 11.5px 25px;
+	
+}
+
+.top_menu a {
+	color: white;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	
+}
+
+.top_menu li:hover {
+	background-color: #363636;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	
+}
+
+/*Top menu finifh*/
+/*Header finish*/
+
+/*Container start*/
+
+/*Left menu start*/
+.left_menu {
+	height: 240px;
+	width: 240px;
+	float: left;
+}
+
+.left_menu ul {
+	list-style-type: none;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+
+.left_menu li{
+	font-size: 13.33px;
+	font-family: Arial, sans-serif;
+	border-top: 1px solid gray;
+	padding: 11.5px 22px;
+}
+
+.left_menu a {
+	color: #656363;
+	text-decoration: none;
+}
+
+.left_menu li:hover {
+	font-weight: bold;
+	background-color: #f9f9f9;
+	padding: 11.5px 35px;
+}
+/*Left menu finish*/
+
+/*Content start*/
+
+.content {
+	margin-left: 288px;
+}
+
+.photo {
+	border: 1px solid gray;
+	padding: 43.5px 89px;
+	margin-bottom: 40px;
+}
+
+.content p {
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	padding-left: 35px;
+	padding-right: 65px;
+	margin-bottom: 60px;
+}
+
+/*Content finish*/
+
+/*Footer start*/
+
+.bottom_menu {
+
+	height: 40px;
+	width: 100%;
+	background-color: #e1e1e1;
+}
+
+.bottom_menu ul {
+	list-style-type: none;
+	
+}
+
+
+.bottom_menu li{
+	float: left;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	display: block;
+	padding: 13px 25px;
+	
+}
+
+.bottom_menu a {
+	color: #444444;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	
+}
+
+.bottom_menu li:hover {
+	text-decoration: underline;
+	
+	
+}
+
+.bottom_menu p {
+	float: right;
+	color: #444444;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	padding: 11.5px 25px;
+}
+
